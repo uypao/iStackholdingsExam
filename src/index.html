@@ -1,0 +1,382 @@
+<!doctype html>
+<html ng-app="testfolder">
+  <head>
+
+    <meta charset="utf-8">
+    <title>ActiveBox</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <section id='banner'>
+        <div class='header'>
+            <!-- <div class='header-content'>
+                <a href='#' class='active-logo'>
+                    <img src="../img/logo.png">
+                </a>
+                <nav class='navbar' role='navigation'>
+                    <ul>
+                        <li>
+                            <a href="#">features</a>
+                        </li>
+                        <li>
+                            <a href="#">works</a>
+                        </li>
+                        <li>
+                            <a href="#">our team</a>
+                        </li>
+                        <li>
+                            <a href="#">testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#">download</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class='nav-toggle'></a>
+            </div> -->
+
+
+        <nav class="navbar " role='navigation'>
+          <div class="container">
+          <div class='header-content'>
+            <div class="navbar-header">
+            <button type = "button" class = "navbar-toggle" 
+               data-toggle = "collapse" data-target = "#navbar-collapse-list">
+               <span class = "sr-only">Toggle navigation</span>
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+            </button>
+
+              <a class="navbar-brand" href="#"> <img src="../img/logo.png">
+              </a>
+            </div>
+            <div class = "collapse navbar-collapse" id = "navbar-collapse-list">
+              <ul class="nav navbar-nav ">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">features</a></li>
+                <li><a href="#">works</a></li> 
+                <li><a href="#">our team</a></li> 
+                <li><a href="#">testimonials</a></li> 
+                <li><a href="#">download</a></li> 
+              </ul>
+            </div>
+          </div>
+          </div>
+        </nav>
+
+
+
+        </div>
+        <div class='container'>
+            <div class='col-md-10 col-md-offset-1'>
+                <div class='banner-text'>
+                    <h1>your favorite one page multi purpose template</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
+                     <button class='btn site-btn'>find out more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='offer'>
+        <div class='container'>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 offer-item text-center">
+                    <span class="icon icon-tools"></span>
+                    <div class="offer-content">
+                        <h5>Easily Customised</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 offer-item text-center">
+                    <span class="icon icon-desktop"></span>
+                    <div class="offer-content">
+                        <h5>Responsive Ready</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 offer-item text-center">
+                    <span class="icon icon-lightbulb"></span>
+                    <div class="offer-content">
+                        <h5>Modern Design</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 offer-item text-center">
+                    <span class="icon icon-genius"></span>
+                    <div class="offer-content">
+                        <h5>Clean Code</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 offer-item text-center">
+                    <span class="icon icon-briefcase"></span>
+                    <div class="offer-content">
+                        <h5>Ready to Ship</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 offer-item text-center">
+                    <span class="icon icon-download"></span>
+                    <div class="offer-content">
+                        <h5>Download for Free</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='project'>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project1.jpg">
+                </div> 
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project2.jpg">
+                </div> 
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project3.jpg">
+                </div> 
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project4.jpg">
+                </div> 
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project5.jpg">
+                </div> 
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project6.jpg">
+                </div> 
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project7.jpg">
+                </div> 
+                <div class='col-lg-3 col-md-6 col-sm-6 proj-item'>
+                     <img src="../img/project8.jpg">
+                </div> 
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id='people'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-3 col-sm-6 person-list'>
+                    <img src='../img/person1.jpg' class='img-responsive person-img'>
+                    <h3>Ruth Woods</h3>
+                    <span>founder, CEO</span>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo</p>
+                    <ul class='person-social-media'>
+                       <li>
+                           <a href="#">
+                               <i class='fa fa-facebook social-icon'></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-twitter social-icon'></i>
+                           </a>
+                       </li> 
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-linkedin-square social-icon'></i>
+                           </a>
+                       </li> 
+                    </ul>
+                </div>
+                <div class='col-md-3 col-sm-6 person-list'>
+                    <img src='../img/person2.jpg' class='img-responsive person-img'>
+                    <h3>Timothy Reed</h3>
+                    <span>co-founder, developer</span>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo</p>
+                     <ul class='person-social-media'>
+                       <li>
+                           <a href="#">
+                               <i class='fa fa-facebook social-icon'></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-twitter social-icon'></i>
+                           </a>
+                       </li> 
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-linkedin-square social-icon'></i>
+                           </a>
+                       </li> 
+                    </ul>
+                </div>
+                <div class='col-md-3 col-sm-6 person-list'>
+                    <img src="../img/person3.jpg" class='img-responsive person-img'>
+                    <h3>Victoria Valdez</h3>
+                      <span>ui designer</span>
+                      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo</p>
+                       <ul class='person-social-media'>
+                       <li>
+                           <a href="#">
+                               <i class='fa fa-facebook social-icon'></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-twitter social-icon'></i>
+                           </a>
+                       </li> 
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-linkedin-square social-icon'></i>
+                           </a>
+                       </li> 
+                    </ul>
+                </div>
+                <div class='col-md-3 col-sm-6 person-list'>
+                    <img src='../img/person4.jpg' class='img-responsive person-img'>
+                    <h3>Beverly Little</h3>
+                      <span>data scientist</span>
+                      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo</p>
+                       <ul class='person-social-media'>
+                       <li>
+                           <a href="#">
+                               <i class='fa fa-facebook social-icon'></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-twitter social-icon'></i>
+                           </a>
+                       </li> 
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-linkedin-square social-icon'></i>
+                           </a>
+                       </li> 
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id='girl'> 
+        <div class='container-fluid'>
+            <div class="row">
+
+                <div class='flexslider'>
+                   <div class='col-md-6 girl-item'>
+                    <img src="../img/girl1.jpg" class='img-responsive'>
+                   </div>
+                </div>
+                <div class='col-md-6 girl-item'>
+                  <div class='girl-testimonial'>
+                    <h3>"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam..."</h3>
+                    <p>SUSAN SIMS, INTERACTION DESIGNER AT XYZ</p>
+                  </div>
+                </div>
+
+                <!-- <div class='col-md-6 girl-item'>
+                    <img src="../img/girl1.jpg">
+                </div>
+                 <div class='col-md-6 girl-item'>
+                    <p></p>
+                 </div> -->
+            </div>    
+        </div>
+    </section>
+
+    <section id='download'>
+        <div class='container'>
+            <div class='col-md-8 col-md-offset-2 text-center'>
+                <h2>Are You Ready to Start? Download Now For Free!</h2>
+                <p>FUSCE DAPIBUS, TELLUS AC CURSUS COMMODO</p>
+                 <button class='btn site-btn download-btn'>download for free</button>
+            </div>
+        </div>
+    </section>
+
+    <section id='footer'>
+        <div class='footer1'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='footer-col col-md-4'>
+                        <h4>location</h4>
+                        <p>3481 Melrose Place <br> Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class='footer-col col-md-4'>
+                        <h4>share with love</h4>
+                         <ul class='person-social-media'>
+                       <li>
+                           <a href="#">
+                               <i class='fa fa-facebook social-icon'></i>
+                           </a>
+                       </li>
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-twitter social-icon'></i>
+                           </a>
+                       </li> 
+                        <li>
+                           <a href="#">
+                               <i class='fa fa-linkedin-square social-icon'></i>
+                           </a>
+                       </li> 
+                    </ul>
+                    </div>
+                    <div class='footer-col col-md-4'>
+                        <h4>about activebox</h4>
+                        <p>
+                            Cras justo odio, dapibus ac facilisis in, egestas eget <br>
+                            quam. Donec ullamcorper nulla non metus auctor <br>
+                            fringilla.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer2'>
+            <div class='container'>
+                <div class='col-md-12'>
+                    <p>Copyright © 2015 ActiveBox. All Rights Reserved</p>
+                    <p>Made with <i class="fa fa-heart heart"></i> <a href="#/">by Kamal Chaneman</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- run `gulp inject` to automatically populate bower script dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- js files will be automatically insert here -->
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+  </body>
+</html>
